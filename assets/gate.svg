@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="272" viewBox="0 0 840 272">
+<title>contrast-gate stops a build</title>
+<style>
+.s{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif}
+.m{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace}
+.rv{transform:translateY(182px);animation:rv 12s steps(7) infinite}
+@keyframes rv{0%{transform:none}45%,100%{transform:translateY(182px)}}
+.out{animation:out 12s linear infinite}
+@keyframes out{0%,92%{opacity:1}97%,100%{opacity:0}}
+.fl{opacity:.14;animation:fl 12s linear infinite}
+@keyframes fl{0%,31%{opacity:0}33%{opacity:.45}42%,92%{opacity:.14}97%,100%{opacity:0}}
+.blink{animation:blink 1s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<defs><clipPath id="t"><path d="M1 45H839V256a15 15 0 0 1-15 15H16a15 15 0 0 1-15-15Z"/></clipPath></defs>
+<rect x=".5" y=".5" width="839" height="271" rx="16" fill="#0F141E" stroke="#2A3242"/>
+<path d="M1 44.5H839" stroke="#2A3242"/>
+<circle cx="28" cy="22" r="5.5" fill="#FF8A80"/><circle cx="46" cy="22" r="5.5" fill="#F9AA60"/><circle cx="64" cy="22" r="5.5" fill="#7BD88F"/>
+<text class="m" x="420" y="27" font-size="12" fill="#908C83" text-anchor="middle">contrast-gate · npm run build</text>
+<g clip-path="url(#t)">
+<g class="out m" font-size="13">
+<rect class="fl" x="20" y="166" width="800" height="24" rx="4" fill="#FF8A80"/>
+<text x="32" y="78" fill="#908C83">$</text><text x="48" y="78" fill="#F3F0E9">npm run build</text>
+<text x="32" y="104" fill="#908C83">&gt; contrast-gate contrast.config.json</text>
+<text x="48" y="130" fill="#7BD88F">pass</text><text x="100" y="130" fill="#F3F0E9">dark: body text on card</text><text x="400" y="130" fill="#F3F0E9" text-anchor="end">14.47:1</text><text x="420" y="130" fill="#908C83">min 4.5</text><text x="500" y="130" fill="#908C83">#f3f0e9 on #1a1f2b</text>
+<rect x="664.5" y="116.5" width="43" height="19" rx="4" fill="#1a1f2b" stroke="#2A3242"/><text class="s" x="686" y="130" font-size="12" font-weight="700" fill="#f3f0e9" text-anchor="middle">Aa</text>
+<text x="48" y="156" fill="#7BD88F">pass</text><text x="100" y="156" fill="#F3F0E9">dark: placeholder in field</text><text x="400" y="156" fill="#F3F0E9" text-anchor="end">4.91:1</text><text x="420" y="156" fill="#908C83">min 4.5</text><text x="500" y="156" fill="#908C83">#908c83 on #1a1f2b</text>
+<rect x="664.5" y="142.5" width="43" height="19" rx="4" fill="#1a1f2b" stroke="#2A3242"/><text class="s" x="686" y="156" font-size="12" font-weight="700" fill="#908c83" text-anchor="middle">Aa</text>
+<text x="48" y="182" fill="#FF8A80" font-weight="700">FAIL</text><text x="100" y="182" fill="#F3F0E9">light: placeholder in field</text><text x="400" y="182" fill="#FF8A80" text-anchor="end">2.03:1</text><text x="420" y="182" fill="#908C83">min 4.5</text><text x="500" y="182" fill="#908C83">#b3b3b3 on #ffffff</text>
+<rect x="664.5" y="168.5" width="43" height="19" rx="4" fill="#ffffff" stroke="#2A3242"/><text class="s" x="686" y="182" font-size="12" font-weight="700" fill="#b3b3b3" text-anchor="middle">Aa</text>
+<text x="32" y="208" fill="#F3F0E9">contrast-gate: 1 of 34 pair(s) below the minimum</text>
+<text x="32" y="234" fill="#FF8A80" font-weight="700">exit 1</text><text x="96" y="234" fill="#908C83">the build stops before vite build</text>
+</g>
+<g class="rv"><rect x="1" y="62" width="838" height="210" fill="#0F141E"/><rect class="blink" x="32" y="67" width="8" height="15" fill="#F3F0E9"/></g>
+</g>
+</svg>

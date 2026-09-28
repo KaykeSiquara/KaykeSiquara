@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="164" height="44" viewBox="0 0 164 44">
+<title>Portfólio</title>
+<style>
+.s{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif}
+.sh{transform:translateX(-90px);animation:sh 6s cubic-bezier(.4,0,.2,1) 0s infinite}
+@keyframes sh{0%{transform:translateX(-90px)}22%,100%{transform:translateX(200px)}}
+.ar{animation:ar 6s ease-in-out 0s infinite}
+@keyframes ar{0%,12%,28%,100%{transform:none}20%{transform:translate(2px,-2px)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<defs><clipPath id="c"><rect x="1" y="1" width="162" height="42" rx="21"/></clipPath><linearGradient id="l"><stop offset="0" stop-color="#F3F0E9" stop-opacity="0"/><stop offset=".5" stop-color="#F3F0E9" stop-opacity=".16"/><stop offset="1" stop-color="#F3F0E9" stop-opacity="0"/></linearGradient></defs>
+<rect x=".5" y=".5" width="163" height="43" rx="21.5" fill="#1A1F2B" stroke="#2A3242"/>
+<g clip-path="url(#c)"><rect class="sh" x="0" y="0" width="60" height="44" fill="url(#l)"/></g>
+<g fill="none" stroke="#F9AA60" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="17" y="14" width="20" height="16" rx="3"/><path d="M17 19h20"/></g>
+<text class="s" x="86" y="27" font-size="15" font-weight="600" fill="#F3F0E9" text-anchor="middle">Portfólio</text>
+<g class="ar" fill="none" stroke="#908C83" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M134 27l8-8M136 19h6v6"/></g>
+</svg>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="260" viewBox="0 0 840 260">
+<title>Kayke Siquara Mendonça, UI/UX designer and front-end developer</title>
+<style>
+.s{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif}
+.m{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace}
+.up{animation:up .8s cubic-bezier(.2,.7,.2,1) both}
+.d1{animation-delay:.1s}.d2{animation-delay:.3s}.d3{animation-delay:.5s}.d4{animation-delay:.7s}
+@keyframes up{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+.bar{transform-box:fill-box;transform-origin:left center;animation:grow .9s .6s cubic-bezier(.2,.7,.2,1) both}
+@keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+.p{opacity:0;animation:slot 16s linear infinite}
+.p1{opacity:1}.p2{animation-delay:-12s}.p3{animation-delay:-8s}.p4{animation-delay:-4s}
+@keyframes slot{0%,24%{opacity:1}24.2%,100%{opacity:0}}
+.cv{transform-box:fill-box;transform-origin:right center;animation:cover 16s infinite}
+.p1 .cv{transform:scaleX(0);animation-timing-function:steps(14)}
+.p2 .cv{animation-delay:-12s;animation-timing-function:steps(19)}
+.p3 .cv{animation-delay:-8s;animation-timing-function:steps(20)}
+.p4 .cv{animation-delay:-4s;animation-timing-function:steps(30)}
+@keyframes cover{0%{transform:scaleX(1)}8%,19%{transform:scaleX(0)}23%,100%{transform:scaleX(1)}}
+.c1{transform:translateX(184.8px);animation:c1 16s steps(14) infinite}
+.c2{animation:c2 16s steps(19) -12s infinite}
+.c3{animation:c3 16s steps(20) -8s infinite}
+.c4{animation:c4 16s steps(30) -4s infinite}
+@keyframes c1{0%{transform:none}8%,19%{transform:translateX(184.8px)}23%,100%{transform:none}}
+@keyframes c2{0%{transform:none}8%,19%{transform:translateX(250.8px)}23%,100%{transform:none}}
+@keyframes c3{0%{transform:none}8%,19%{transform:translateX(264px)}23%,100%{transform:none}}
+@keyframes c4{0%{transform:none}8%,19%{transform:translateX(396px)}23%,100%{transform:none}}
+.blink{animation:blink 1s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+.plumb{transform-origin:720px 40px;animation:swing 14s ease-in-out infinite}
+@keyframes swing{0%{transform:rotate(0deg)}5%{transform:rotate(15deg)}12%{transform:rotate(-11deg)}19%{transform:rotate(8deg)}26%{transform:rotate(-5.5deg)}33%{transform:rotate(3.6deg)}40%{transform:rotate(-2.2deg)}47%{transform:rotate(1.1deg)}53%{transform:rotate(-.4deg)}58%,100%{transform:rotate(0deg)}}
+.r1{opacity:0;animation:r1 14s linear infinite}
+.r2{animation:r2 14s linear infinite}
+@keyframes r1{0%,57%{opacity:1}59%,100%{opacity:0}}
+@keyframes r2{0%,58%{opacity:0}60%,98%{opacity:1}100%{opacity:0}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<defs><pattern id="g" width="16" height="16" patternUnits="userSpaceOnUse"><path d="M16 0H0V16" fill="none" stroke="#232A38"/></pattern></defs>
+<rect x=".5" y=".5" width="839" height="259" rx="16" fill="#0F141E" stroke="#2A3242"/>
+<rect x="608.5" y="16.5" width="215" height="227" rx="12" fill="url(#g)" stroke="#2A3242"/>
+<text class="m up d1" x="40" y="64" font-size="15" fill="#908C83">just a dev.</text>
+<text class="s up d2" x="40" y="112" font-size="40" font-weight="700" fill="#F3F0E9">Kayke Siquara Mendonça</text>
+<rect class="bar" x="40" y="128" width="72" height="4" rx="2" fill="#F9AA60"/>
+<g class="up d3">
+<g class="p p1"><text class="m" x="40" y="182" font-size="22" fill="#F9AA60" textLength="184.8" lengthAdjust="spacing">UI/UX designer</text><rect class="cv" x="40" y="156" width="184.8" height="34" fill="#0F141E"/><g class="c1"><rect class="blink" x="42" y="160" width="3" height="27" fill="#F3F0E9"/></g></g>
+<g class="p p2"><text class="m" x="40" y="182" font-size="22" fill="#F9AA60" textLength="250.8" lengthAdjust="spacing">front-end developer</text><rect class="cv" x="40" y="156" width="250.8" height="34" fill="#0F141E"/><g class="c2"><rect class="blink" x="42" y="160" width="3" height="27" fill="#F3F0E9"/></g></g>
+<g class="p p3"><text class="m" x="40" y="182" font-size="22" fill="#F9AA60" textLength="264" lengthAdjust="spacing">I ship what I design</text><rect class="cv" x="40" y="156" width="264" height="34" fill="#0F141E"/><g class="c3"><rect class="blink" x="42" y="160" width="3" height="27" fill="#F3F0E9"/></g></g>
+<g class="p p4"><text class="m" x="40" y="182" font-size="22" fill="#F9AA60" textLength="396" lengthAdjust="spacing">verified by script, not by eye</text><rect class="cv" x="40" y="156" width="396" height="34" fill="#0F141E"/><g class="c4"><rect class="blink" x="42" y="160" width="3" height="27" fill="#F3F0E9"/></g></g>
+</g>
+<text class="s up d4" x="40" y="228" font-size="15" fill="#908C83">Rio de Janeiro, Brazil · remote, hybrid or on-site · open to relocation</text>
+<path d="M720 44V200" stroke="#666C79" stroke-dasharray="3 5"/>
+<path d="M656 202v8M672 204v4M688 204v4M704 204v4M720 196v14M736 204v4M752 204v4M768 204v4M784 202v8M656 206H784" stroke="#666C79"/>
+<rect x="684" y="30" width="72" height="8" rx="4" fill="#666C79"/>
+<g class="plumb"><path d="M720 40V168" stroke="#F3F0E9" stroke-width="1.5"/><rect x="713" y="164" width="14" height="7" rx="2" fill="#F9AA60"/><path d="M711 171h18l-9 25z" fill="#F9AA60"/></g>
+<g class="m" font-size="12" text-anchor="middle"><text class="r1" x="720" y="232" fill="#908C83">measuring…</text><text class="r2" x="720" y="232" fill="#7BD88F">plumb · 0.0°</text></g>
+</svg>

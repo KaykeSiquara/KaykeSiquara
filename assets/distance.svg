@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="236" viewBox="0 0 840 236">
+<title>Readable is not the same as distinguishable</title>
+<style>
+.s{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif}
+.m{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace}
+.o{fill:#EA8839;animation:o 10s ease-in-out infinite}
+@keyframes o{0%,10%{fill:#F37E63}35%,90%{fill:#EA8839}100%{fill:#F37E63}}
+.h{transform-origin:650px 136px;transform:rotate(-56deg);animation:h 10s ease-in-out infinite}
+@keyframes h{0%,10%{transform:rotate(-34deg)}35%,90%{transform:rotate(-56deg)}100%{transform:rotate(-34deg)}}
+.f{animation:f 10s ease-in-out infinite}
+@keyframes f{0%,30%{opacity:0}38%,88%{opacity:1}96%,100%{opacity:0}}
+.fb{opacity:0;animation:fb 10s ease-in-out infinite}
+@keyframes fb{0%,30%{opacity:1}38%,88%{opacity:0}96%,100%{opacity:1}}
+.o.f{animation:o 10s ease-in-out infinite,f 10s ease-in-out infinite}
+.o.fb{animation:o 10s ease-in-out infinite,fb 10s ease-in-out infinite}
+.b{transform-box:fill-box;transform-origin:left center;animation:b 10s ease-in-out infinite}
+@keyframes b{0%,10%{transform:scaleX(.617)}35%,90%{transform:scaleX(1)}100%{transform:scaleX(.617)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<rect x=".5" y=".5" width="839" height="235" rx="16" fill="#0F141E" stroke="#2A3242"/>
+<text class="m" x="40" y="44" font-size="13" fill="#908C83">readable ≠ distinguishable</text>
+<text class="s" x="40" y="72" font-size="18" font-weight="700" fill="#F3F0E9">Both passed contrast. She still could not tell them apart.</text>
+<rect x="40" y="96" width="170" height="46" rx="10" fill="#1A1F2B"/>
+<rect x="222" y="96" width="170" height="46" rx="10" fill="#1A1F2B"/>
+<text class="s o" x="58" y="124" font-size="14" font-weight="700">R$ 1.240,00</text>
+<text class="s" x="240" y="124" font-size="14" font-weight="700" fill="#F47A7D">R$ 980,00</text>
+<g class="m" font-size="12" fill="#908C83"><text x="58" y="162">orange</text><text x="240" y="162">red</text><text x="40" y="190">OKLab distance</text></g>
+<rect x="160" y="182" width="232" height="8" rx="4" fill="#1A1F2B"/>
+<rect class="b" x="160" y="182" width="232" height="8" rx="4" fill="#F9AA60"/>
+<text class="s f" x="40" y="218" font-size="14" fill="#F3F0E9">36° apart: 62% more distinct in light, 80% in dark</text>
+<circle cx="650" cy="136" r="60" fill="none" stroke="#2A3242" stroke-width="2"/>
+<text class="m" x="650" y="140" font-size="12" fill="#908C83" text-anchor="middle">hue</text>
+<path class="f" d="M706.38 115.48A60 60 0 0 0 683.55 86.26" fill="none" stroke="#F9AA60" stroke-width="3" stroke-linecap="round"/>
+<text class="m f" x="712" y="92" font-size="13" fill="#F9AA60">36°</text>
+<circle cx="706.38" cy="115.48" r="7" fill="#F47A7D"/>
+<g class="h"><circle class="o" cx="710" cy="136" r="7"/></g>
+<g class="m" font-size="12"><text x="590" y="222" fill="#F47A7D">red · 20°</text><text class="o fb" x="680" y="222">orange</text><text class="o f" x="680" y="222">orange · 56°</text></g>
+</svg>

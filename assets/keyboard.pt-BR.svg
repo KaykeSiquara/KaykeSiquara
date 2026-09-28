@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="324" viewBox="0 0 840 324">
+<title>react-keyboard-primitives: o foco nunca sai do campo</title>
+<style>
+.s{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif}
+.m{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace}
+.hl{transform:translateY(32px);animation:hl 10s linear infinite}
+@keyframes hl{0%,9.9%{opacity:0;transform:none}10%,19.9%{opacity:1;transform:none}20%,29.9%{opacity:1;transform:translateY(32px)}30%,39.9%{opacity:1;transform:translateY(64px)}40%,83.9%{opacity:1;transform:translateY(32px)}84%,100%{opacity:0;transform:none}}
+.lst,.ph{animation:vis 10s linear infinite}
+@keyframes vis{0%,49.9%{opacity:1}50%,87.9%{opacity:0}88%,100%{opacity:1}}
+.val{opacity:0;animation:inv 10s linear infinite}
+@keyframes inv{0%,49.9%{opacity:0}50%,87.9%{opacity:1}88%,100%{opacity:0}}
+.blink{animation:blink 1s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+.k{opacity:0}
+.kd{animation:kd 10s linear infinite}
+@keyframes kd{0%,9.9%{opacity:0}10%,12%{opacity:1}15%,19.9%{opacity:0}20%,22%{opacity:1}25%,29.9%{opacity:0}30%,32%{opacity:1}35%,100%{opacity:0}}
+.ku{animation:ku 10s linear infinite}
+@keyframes ku{0%,39.9%{opacity:0}40%,42%{opacity:1}45%,100%{opacity:0}}
+.ke{animation:ke 10s linear infinite}
+@keyframes ke{0%,49.9%{opacity:0}50%,52%{opacity:1}55%,100%{opacity:0}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<rect x=".5" y=".5" width="839" height="323" rx="16" fill="#0F141E" stroke="#2A3242"/>
+<text class="m" x="40" y="44" font-size="13" fill="#908C83">react-keyboard-primitives · combobox</text>
+<text class="s" x="40" y="72" font-size="20" font-weight="700" fill="#F3F0E9">O foco nunca sai do campo</text>
+<text class="s" x="40" y="106" font-size="14" font-weight="600" fill="#F3F0E9">Período contábil</text>
+<rect x="36" y="114" width="308" height="48" rx="11" fill="none" stroke="#F9AA60" stroke-width="2"/>
+<rect x="40.5" y="118.5" width="299" height="39" rx="8" fill="#1A1F2B" stroke="#666C79"/>
+<path d="M314 134l6 6 6-6" fill="none" stroke="#908C83" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<g class="ph"><text class="s" x="56" y="143" font-size="15" fill="#908C83">Escolha um mês</text><rect class="blink" x="54" y="128" width="2" height="20" fill="#F3F0E9"/></g>
+<g class="val"><text class="s" x="56" y="143" font-size="15" fill="#F3F0E9" textLength="66" lengthAdjust="spacing">Fevereiro</text><rect class="blink" x="125" y="128" width="2" height="20" fill="#F3F0E9"/></g>
+<g class="lst">
+<rect x="40.5" y="166.5" width="299" height="135" rx="8" fill="#1A1F2B" stroke="#2A3242"/>
+<g class="hl"><rect x="45" y="171" width="290" height="30" rx="6" fill="#2A3242"/><rect x="45" y="175" width="3" height="22" rx="1.5" fill="#F9AA60"/></g>
+<g class="s" font-size="15" fill="#F3F0E9"><text x="60" y="191">Janeiro</text><text x="60" y="223">Fevereiro</text><text x="60" y="255">Março</text><text x="60" y="287">Abril</text></g>
+</g>
+<g class="s" font-size="15" font-weight="600" text-anchor="middle">
+<rect x="420.5" y="96.5" width="47" height="39" rx="8" fill="#1A1F2B" stroke="#666C79"/><text x="444" y="121" fill="#F3F0E9">↓</text>
+<rect x="476.5" y="96.5" width="47" height="39" rx="8" fill="#1A1F2B" stroke="#666C79"/><text x="500" y="121" fill="#F3F0E9">↑</text>
+<rect x="532.5" y="96.5" width="79" height="39" rx="8" fill="#1A1F2B" stroke="#666C79"/><text x="572" y="121" fill="#F3F0E9">↵ Enter</text>
+<rect x="620.5" y="96.5" width="55" height="39" rx="8" fill="#1A1F2B" stroke="#666C79"/><text x="648" y="121" fill="#F3F0E9">Esc</text>
+<rect x="684.5" y="96.5" width="59" height="39" rx="8" fill="#1A1F2B" stroke="#666C79"/><text x="714" y="121" fill="#F3F0E9">Tab</text>
+<g class="k kd"><rect x="420" y="96" width="48" height="40" rx="8" fill="#F9AA60"/><text x="444" y="121" fill="#0F141E">↓</text></g>
+<g class="k ku"><rect x="476" y="96" width="48" height="40" rx="8" fill="#F9AA60"/><text x="500" y="121" fill="#0F141E">↑</text></g>
+<g class="k ke"><rect x="532" y="96" width="80" height="40" rx="8" fill="#F9AA60"/><text x="572" y="121" fill="#0F141E">↵ Enter</text></g>
+</g>
+<g class="m" font-size="13"><text x="420" y="176" fill="#7BD88F">pass</text><text x="464" y="176" fill="#F3F0E9">expect(input).toHaveFocus()</text></g>
+<g class="s" font-size="14" fill="#908C83"><text x="420" y="214">Opções são marcadas com aria-activedescendant,</text><text x="420" y="234">e o cursor e o leitor de tela seguem no campo.</text><text x="420" y="264">As setas param nas pontas.</text><text x="420" y="284">A busca pela inicial dá a volta na lista.</text><text x="420" y="304">Tab fecha e sai. Nunca prende o foco.</text></g>
+</svg>

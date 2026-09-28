@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="344" viewBox="0 0 840 344">
+<title>Instituto INATOS em números</title>
+<style>
+.s{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif}
+.m{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace}
+.n{font-variant-numeric:tabular-nums}
+.up{animation:up .7s cubic-bezier(.2,.7,.2,1) both}
+@keyframes up{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.od{transform:translateY(var(--y));animation:od 12s cubic-bezier(.2,.8,.2,1) both infinite}
+@keyframes od{0%{transform:none;opacity:0}4%{opacity:1}18%,90%{transform:translateY(var(--y));opacity:1}96%,100%{transform:translateY(var(--y));opacity:0}}
+.sk{transform-box:fill-box;transform-origin:left center;transform:scaleX(var(--s));animation:sk 12s cubic-bezier(.4,0,.2,1) both infinite}
+@keyframes sk{0%{transform:none;fill:#FF8A80;opacity:0}4%{opacity:1}22%,90%{transform:scaleX(var(--s));fill:#7BD88F;opacity:1}96%,100%{transform:scaleX(var(--s));fill:#7BD88F;opacity:0}}
+.dot{transform-box:fill-box;transform-origin:center;animation:dot 2s ease-out infinite}
+@keyframes dot{from{transform:scale(1);opacity:.7}to{transform:scale(3.2);opacity:0}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<defs>
+<clipPath id="w"><rect x="40" y="132" width="760" height="48"/></clipPath>
+<text id="st" class="s n" font-size="40" font-weight="700" fill="#F3F0E9"><tspan x="0" y="170">0</tspan><tspan x="0" y="218">1</tspan><tspan x="0" y="266">2</tspan><tspan x="0" y="314">3</tspan><tspan x="0" y="362">4</tspan><tspan x="0" y="410">5</tspan><tspan x="0" y="458">6</tspan><tspan x="0" y="506">7</tspan><tspan x="0" y="554">8</tspan><tspan x="0" y="602">9</tspan></text>
+</defs>
+<rect x=".5" y=".5" width="839" height="343" rx="16" fill="#0F141E" stroke="#2A3242"/>
+<text class="m up" x="40" y="46" font-size="13" fill="#908C83">2024 – 2026 · Rio de Janeiro, Brasil</text>
+<text class="s up" x="40" y="76" font-size="24" font-weight="700" fill="#F3F0E9" style="animation-delay:.1s">Instituto INATOS</text>
+<text class="s up" x="40" y="100" font-size="15" fill="#908C83" style="animation-delay:.2s">Sistema interno de gestão, de um protótipo em Streamlit até a produção</text>
+<g class="up" style="animation-delay:.3s"><rect x="580.5" y="34.5" width="219" height="29" rx="14.5" fill="#1A1F2B" stroke="#2A3242"/><circle class="dot" cx="600" cy="49" r="4" fill="#7BD88F"/><circle cx="600" cy="49" r="4" fill="#7BD88F"/><text class="s" x="614" y="54" font-size="13" fill="#F3F0E9">em produção, uso diário</text></g>
+<g class="s" font-size="13" fill="#908C83">
+<g class="up" style="animation-delay:.35s"><rect x="40" y="122" width="175" height="104" rx="12" fill="#1A1F2B"/><text x="60" y="202">telas,</text><text x="60" y="218">do design ao código</text></g>
+<g class="up" style="animation-delay:.45s"><rect x="235" y="122" width="175" height="104" rx="12" fill="#1A1F2B"/><text x="255" y="202">módulos,</text><text x="255" y="218">e 5 perfis de acesso</text></g>
+<g class="up" style="animation-delay:.55s"><rect x="430" y="122" width="175" height="104" rx="12" fill="#1A1F2B"/><text x="450" y="202">pessoas em 4 setores</text><text x="450" y="218">usando todo dia</text></g>
+<g class="up" style="animation-delay:.65s"><rect x="625" y="122" width="175" height="104" rx="12" fill="#1A1F2B"/><text x="645" y="202">mais documentos</text><text x="645" y="218">no mesmo tempo</text></g>
+</g>
+<g clip-path="url(#w)">
+<use href="#st" x="60" class="od" style="--y:-48px;animation-delay:.5s"/>
+<use href="#st" x="84" class="od" style="--y:-48px;animation-delay:.6s"/>
+<use href="#st" x="108" class="od" style="--y:-336px;animation-delay:.7s"/>
+<use href="#st" x="255" class="od" style="--y:-48px;animation-delay:.6s"/>
+<use href="#st" x="279" class="od" style="--y:-240px;animation-delay:.7s"/>
+<use href="#st" x="450" class="od" style="--y:-144px;animation-delay:.7s"/>
+<use href="#st" x="474" class="od" style="--y:-48px;animation-delay:.8s"/>
+<use href="#st" x="667" class="od" style="--y:-192px;animation-delay:.8s"/>
+<use href="#st" x="691" class="od" style="--y:-144px;animation-delay:.9s"/>
+</g>
+<g class="s up" font-size="32" font-weight="700" fill="#F3F0E9" style="animation-delay:.65s"><text x="645" y="166">+</text><text x="716" y="166">%</text></g>
+<g class="s" font-size="13" fill="#F3F0E9"><text x="40" y="262">CSS</text><text x="430" y="262">Cores fixas → utilitários de token</text><text x="40" y="306">Componentes duplicados → primitivos de UI</text><text x="430" y="306">Erros de TypeScript</text></g>
+<g class="m" font-size="12" fill="#908C83" text-anchor="end"><text x="410" y="262">151 KB → 69 KB</text><text x="800" y="262">4.292 → ~40</text><text x="410" y="306">55 → 13</text><text x="800" y="306">30 → 0</text></g>
+<g fill="#1A1F2B"><rect x="40" y="272" width="370" height="8" rx="4"/><rect x="430" y="272" width="370" height="8" rx="4"/><rect x="40" y="316" width="370" height="8" rx="4"/><rect x="430" y="316" width="370" height="8" rx="4"/></g>
+<rect class="sk" x="40" y="272" width="370" height="8" rx="4" fill="#7BD88F" style="--s:.457;animation-delay:1s"/>
+<rect class="sk" x="430" y="272" width="370" height="8" rx="4" fill="#7BD88F" style="--s:.0093;animation-delay:1.1s"/>
+<rect class="sk" x="40" y="316" width="370" height="8" rx="4" fill="#7BD88F" style="--s:.236;animation-delay:1.2s"/>
+<rect class="sk" x="430" y="316" width="370" height="8" rx="4" fill="#7BD88F" style="--s:0;animation-delay:1.3s"/>
+</svg>

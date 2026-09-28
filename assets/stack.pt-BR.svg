@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="280" viewBox="0 0 840 280">
+<title>Ferramentas</title>
+<style>
+.m{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace}
+.c{transform-box:fill-box;transform-origin:center;animation:pop .5s cubic-bezier(.2,.8,.3,1.3) both}
+@keyframes pop{from{opacity:0;transform:translateY(6px) scale(.9)}to{opacity:1;transform:none}}
+.c rect{fill:#1A1F2B;stroke:#2A3242}
+.c text{fill:#F3F0E9}
+.hot rect{animation:hot 3s ease-in-out 2s infinite}
+@keyframes hot{50%{stroke:#F9AA60}}
+.pl{animation:pl .5s ease-out both}
+@keyframes pl{from{opacity:0;transform:translateX(-6px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<rect x=".5" y=".5" width="839" height="279" rx="16" fill="#0F141E" stroke="#2A3242"/>
+<g class="m" font-size="12" fill="#908C83"><text x="40" y="47">design</text><text x="40" y="87">front-end</text><text x="40" y="167">qualidade</text><text x="40" y="207">entrega</text><text x="40" y="247">também</text></g>
+<g class="m" font-size="13">
+<g class="c" style="animation-delay:.05s"><rect x="150.5" y="28.5" width="62" height="27" rx="13.5"/><text x="162" y="47" textLength="39" lengthAdjust="spacing">Figma</text></g>
+<g class="c" style="animation-delay:.1s"><rect x="221.5" y="28.5" width="101" height="27" rx="13.5"/><text x="233" y="47" textLength="78" lengthAdjust="spacing">Figma Make</text></g>
+<g class="c" style="animation-delay:.15s"><rect x="331.5" y="28.5" width="124.4" height="27" rx="13.5"/><text x="343" y="47" textLength="101.4" lengthAdjust="spacing">design tokens</text></g>
+<g class="c" style="animation-delay:.2s"><rect x="464.9" y="28.5" width="62" height="27" rx="13.5"/><text x="476.4" y="47" textLength="39" lengthAdjust="spacing">OKLCH</text></g>
+<g class="c hot" style="animation-delay:.25s"><rect x="535.9" y="28.5" width="108.8" height="27" rx="13.5"/><text x="547.4" y="47" textLength="85.8" lengthAdjust="spacing">WCAG 2.1 AA</text></g>
+<g class="c" style="animation-delay:.3s"><rect x="150.5" y="68.5" width="108.8" height="27" rx="13.5"/><text x="162" y="87" textLength="85.8" lengthAdjust="spacing">React 18/19</text></g>
+<g class="c" style="animation-delay:.35s"><rect x="268.3" y="68.5" width="101" height="27" rx="13.5"/><text x="279.8" y="87" textLength="78" lengthAdjust="spacing">TypeScript</text></g>
+<g class="c" style="animation-delay:.4s"><rect x="378.3" y="68.5" width="77.6" height="27" rx="13.5"/><text x="389.8" y="87" textLength="54.6" lengthAdjust="spacing">Next.js</text></g>
+<g class="c" style="animation-delay:.45s"><rect x="464.9" y="68.5" width="69.8" height="27" rx="13.5"/><text x="476.4" y="87" textLength="46.8" lengthAdjust="spacing">Vite 6</text></g>
+<g class="c" style="animation-delay:.5s"><rect x="543.7" y="68.5" width="140" height="27" rx="13.5"/><text x="555.2" y="87" textLength="117" lengthAdjust="spacing">Tailwind CSS v4</text></g>
+<g class="c" style="animation-delay:.55s"><rect x="150.5" y="108.5" width="85.4" height="27" rx="13.5"/><text x="162" y="127" textLength="62.4" lengthAdjust="spacing">Radix UI</text></g>
+<g class="c" style="animation-delay:.6s"><rect x="244.9" y="108.5" width="132.2" height="27" rx="13.5"/><text x="256.4" y="127" textLength="109.2" lengthAdjust="spacing">TanStack Query</text></g>
+<g class="c" style="animation-delay:.65s"><rect x="386.1" y="108.5" width="69.8" height="27" rx="13.5"/><text x="397.6" y="127" textLength="46.8" lengthAdjust="spacing">Motion</text></g>
+<g class="c" style="animation-delay:.7s"><rect x="464.9" y="108.5" width="85.4" height="27" rx="13.5"/><text x="476.4" y="127" textLength="62.4" lengthAdjust="spacing">Recharts</text></g>
+<g class="c" style="animation-delay:.75s"><rect x="150.5" y="148.5" width="69.8" height="27" rx="13.5"/><text x="162" y="167" textLength="46.8" lengthAdjust="spacing">Vitest</text></g>
+<g class="c" style="animation-delay:.8s"><rect x="229.3" y="148.5" width="140" height="27" rx="13.5"/><text x="240.8" y="167" textLength="117" lengthAdjust="spacing">Testing Library</text></g>
+<g class="c" style="animation-delay:.85s"><rect x="378.3" y="148.5" width="101" height="27" rx="13.5"/><text x="389.8" y="167" textLength="78" lengthAdjust="spacing">Playwright</text></g>
+<g class="c" style="animation-delay:.9s"><rect x="488.3" y="148.5" width="46.4" height="27" rx="13.5"/><text x="499.8" y="167" textLength="23.4" lengthAdjust="spacing">axe</text></g>
+<g class="c" style="animation-delay:.95s"><rect x="150.5" y="188.5" width="132.2" height="27" rx="13.5"/><text x="162" y="207" textLength="109.2" lengthAdjust="spacing">GitHub Actions</text></g>
+<g class="c" style="animation-delay:1s"><rect x="291.7" y="188.5" width="69.8" height="27" rx="13.5"/><text x="303.2" y="207" textLength="46.8" lengthAdjust="spacing">Vercel</text></g>
+<g class="c" style="animation-delay:1.05s"><rect x="370.5" y="188.5" width="69.8" height="27" rx="13.5"/><text x="382" y="207" textLength="46.8" lengthAdjust="spacing">Docker</text></g>
+<g class="c" style="animation-delay:1.1s"><rect x="449.3" y="188.5" width="46.4" height="27" rx="13.5"/><text x="460.8" y="207" textLength="23.4" lengthAdjust="spacing">Git</text></g>
+<g class="c" style="animation-delay:1.15s"><rect x="150.5" y="228.5" width="69.8" height="27" rx="13.5"/><text x="162" y="247" textLength="46.8" lengthAdjust="spacing">Python</text></g>
+<g class="c" style="animation-delay:1.2s"><rect x="229.3" y="228.5" width="46.4" height="27" rx="13.5"/><text x="240.8" y="247" textLength="23.4" lengthAdjust="spacing">SQL</text></g>
+<g class="c" style="animation-delay:1.25s"><rect x="284.7" y="228.5" width="101" height="27" rx="13.5"/><text x="296.2" y="247" textLength="78" lengthAdjust="spacing">PowerShell</text></g>
+</g>
+<g class="m" font-size="12">
+<text class="pl" x="600" y="127" fill="#908C83" style="animation-delay:1.3s">contraste sobre #1A1F2B</text>
+<g class="pl" style="animation-delay:1.4s"><circle cx="606" cy="148" r="5" fill="#F3F0E9"/><text x="618" y="152" fill="#F3F0E9">#F3F0E9</text><text x="800" y="152" fill="#908C83" text-anchor="end">14,47:1</text></g>
+<g class="pl" style="animation-delay:1.5s"><circle cx="606" cy="170" r="5" fill="#F9AA60"/><text x="618" y="174" fill="#F9AA60">#F9AA60</text><text x="800" y="174" fill="#908C83" text-anchor="end">8,59:1</text></g>
+<g class="pl" style="animation-delay:1.6s"><circle cx="606" cy="192" r="5" fill="#7BD88F"/><text x="618" y="196" fill="#7BD88F">#7BD88F</text><text x="800" y="196" fill="#908C83" text-anchor="end">9,46:1</text></g>
+<g class="pl" style="animation-delay:1.7s"><circle cx="606" cy="214" r="5" fill="#FF8A80"/><text x="618" y="218" fill="#FF8A80">#FF8A80</text><text x="800" y="218" fill="#908C83" text-anchor="end">7,22:1</text></g>
+<g class="pl" style="animation-delay:1.8s"><circle cx="606" cy="236" r="5" fill="#908C83"/><text x="618" y="240" fill="#908C83">#908C83</text><text x="800" y="240" fill="#908C83" text-anchor="end">4,91:1</text></g>
+</g>
+</svg>
