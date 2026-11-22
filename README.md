@@ -44,13 +44,13 @@ One report shaped the palette. A user could not tell an orange amount from a red
 
 ## Open source
 
-Five repositories, all MIT, with 559 tests between them.
+Five repositories, all MIT, with 560 tests between them.
 
 <table>
   <tr>
     <td width="33%" valign="top"><a href="https://kayke-siquara-prumo.vercel.app"><img src="https://github.com/KaykeSiquara/prumo/raw/main/media/introduction.png" width="100%" alt="Prumo documentation site: introduction, principles and numbers"></a><br><b><a href="https://github.com/KaykeSiquara/prumo">Prumo</a></b><br><sub>Design system · 242 tests</sub></td>
     <td width="33%" valign="top"><a href="https://kayke-siquara-ritmo.vercel.app"><img src="https://github.com/KaykeSiquara/ritmo/raw/main/media/today.png" width="100%" alt="Ritmo's Today view, with the quick add reading “Send report tomorrow 2pm #work p1” as tomorrow, 14:00, the Work project and high priority"></a><br><b><a href="https://github.com/KaykeSiquara/ritmo">Ritmo</a></b><br><sub>Productivity app · 170 tests</sub></td>
-    <td width="33%" valign="top"><a href="https://kayke-siquara-verba.vercel.app"><img src="https://github.com/KaykeSiquara/verba/raw/main/docs/overview.png" width="100%" alt="Verba's overview: indicators, paid and pending by month, spending by program and upcoming due dates"></a><br><b><a href="https://github.com/KaykeSiquara/verba">Verba</a></b><br><sub>Finance dashboard · 81 tests</sub></td>
+    <td width="33%" valign="top"><a href="https://kayke-siquara-verba.vercel.app"><img src="https://github.com/KaykeSiquara/verba/raw/main/docs/overview.png" width="100%" alt="Verba's overview: indicators, paid and pending by month, spending by program and upcoming due dates"></a><br><b><a href="https://github.com/KaykeSiquara/verba">Verba</a></b><br><sub>Finance dashboard · 82 tests</sub></td>
   </tr>
 </table>
 

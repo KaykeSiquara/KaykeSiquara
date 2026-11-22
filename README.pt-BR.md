@@ -44,13 +44,13 @@ Um relato mudou a paleta. Uma usuária não conseguia distinguir um valor laranj
 
 ## Código aberto
 
-Cinco repositórios, todos MIT, com 559 testes entre eles.
+Cinco repositórios, todos MIT, com 560 testes entre eles.
 
 <table>
   <tr>
     <td width="33%" valign="top"><a href="https://kayke-siquara-prumo.vercel.app"><img src="https://github.com/KaykeSiquara/prumo/raw/main/media/introduction.png" width="100%" alt="A documentação do Prumo: introdução, princípios e números"></a><br><b><a href="https://github.com/KaykeSiquara/prumo">Prumo</a></b><br><sub>Design system · 242 testes</sub></td>
     <td width="33%" valign="top"><a href="https://kayke-siquara-ritmo.vercel.app"><img src="https://github.com/KaykeSiquara/ritmo/raw/main/media/today.png" width="100%" alt="A tela Hoje do Ritmo, com o atalho de criação entendendo “Send report tomorrow 2pm #work p1” como amanhã, 14:00, projeto Work e prioridade alta"></a><br><b><a href="https://github.com/KaykeSiquara/ritmo">Ritmo</a></b><br><sub>App de produtividade · 170 testes</sub></td>
-    <td width="33%" valign="top"><a href="https://kayke-siquara-verba.vercel.app"><img src="https://github.com/KaykeSiquara/verba/raw/main/docs/overview.png" width="100%" alt="A visão geral do Verba: indicadores, pago e pendente por mês, gasto por programa e próximos vencimentos"></a><br><b><a href="https://github.com/KaykeSiquara/verba">Verba</a></b><br><sub>Painel financeiro · 81 testes</sub></td>
+    <td width="33%" valign="top"><a href="https://kayke-siquara-verba.vercel.app"><img src="https://github.com/KaykeSiquara/verba/raw/main/docs/overview.png" width="100%" alt="A visão geral do Verba: indicadores, pago e pendente por mês, gasto por programa e próximos vencimentos"></a><br><b><a href="https://github.com/KaykeSiquara/verba">Verba</a></b><br><sub>Painel financeiro · 82 testes</sub></td>
   </tr>
 </table>
 
